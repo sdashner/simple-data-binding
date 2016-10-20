@@ -18,7 +18,7 @@ describe("init - no args", function () {
         expect(typeof(binding.childArrays)).toEqual("object");
     });
 
-    it("propterties initalized", function () {
+    it("properties initalized", function () {
         expect(typeof (binding.configs)).toEqual("object");
         expect(binding.nameSpace).toEqual("");
         expect(binding.container).toEqual(document.body);
